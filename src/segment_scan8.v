@@ -21,7 +21,7 @@ module segment_scan8 (
     end
     always @* begin
         nibble = digits >> (index * 4);
-        select = blank ? 8'h00 : (8'h01 << index);
+        select = (8'h01 << index);
         // abcdefg, dp; decimal point remains off.
         case (nibble)
             4'h0: segments = 8'b11111100;

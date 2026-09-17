@@ -3,3 +3,14 @@ RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_08_segment_scan\build\s
 VCD info: dumpfile wave.vcd opened for output.
 LAB2_PASS segment_scan8 checks=194
 C:\Users\sumin\lab2_08_segment_scan\sim\tb_segment_scan8.sv:19: $finish called at 1306000 (1ps)
+
+[2] FAIL 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_08_segment_scan\build\sim\run-3fd48c40cfc94b85900f45ba5fcd5109\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_FAIL reset blanks digit zero time=6000
+FATAL: C:\Users\sumin\lab2_08_segment_scan\sim\tb_segment_scan8.sv:12: check failed
+       Time: 6000  Scope: tb_segment_scan8.check
+
+ERROR: 종료 코드 1: C:\Users\sumin\lab2_08_segment_scan\build\sim\run-3fd48c40cfc94b85900f45ba5fcd5109\simulation.log
+
+[3]
