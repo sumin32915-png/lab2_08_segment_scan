@@ -1,0 +1,5 @@
+[1] PASS 로그
+RUN C:\msys64\mingw64\bin\vvp.EXE -N C:\Users\sumin\lab2_08_segment_scan\build\sim\run-d21c8d48f8c74967830b7c5f1154a1c0\sim.vvp
+VCD info: dumpfile wave.vcd opened for output.
+LAB2_PASS segment_scan8 checks=194
+C:\Users\sumin\lab2_08_segment_scan\sim\tb_segment_scan8.sv:19: $finish called at 1306000 (1ps)
